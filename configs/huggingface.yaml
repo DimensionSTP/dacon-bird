@@ -70,6 +70,7 @@ logit_name: ${save_detail}-epoch=${epoch}
 submission_name: ${save_detail}-epoch=${epoch}
 
 user_name: ${oc.env:USER_NAME}
+model_detail: swinv2-large-patch4-window12to16-192to256-22kto1k-ft
 upload_tag: bird-images
 num_safetensors: 2
 
