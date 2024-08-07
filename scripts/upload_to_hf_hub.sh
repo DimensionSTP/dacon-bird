@@ -8,6 +8,7 @@ model_type="swinv2-large-patch4-window12to16-192to256-22kto1k-ft"
 precision=32
 batch_size=24
 epoch=10
+model_detail="swinv2-large-patch4-window12to16-192to256-22kto1k-ft"
 
 python $path/upload_to_hf_hub.py \
     is_tuned=$is_tuned \
@@ -16,4 +17,5 @@ python $path/upload_to_hf_hub.py \
     model_type=$model_type \
     precision=$precision \
     batch_size=$batch_size \
-    epoch=$epoch
+    epoch=$epoch \
+    model_detail=$model_detail
